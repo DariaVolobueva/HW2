@@ -1,0 +1,138 @@
+@import 'fonts';
+
+.footer{
+    &__position{
+        @include flex-column-center;
+        flex-wrap: wrap;
+    }
+
+    &__copyrights{
+        @include font-size-color($font-book-trip, $color-grey);
+        margin-bottom: 10vh;
+        font-family: PoppinsR;  
+    }
+
+    &__main{
+        @include flex-row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 5.8%;
+    }
+
+    &__company-desc{
+        @include flex-column;
+        width: 17.5%;
+        margin-right: 9.4vh;
+        font-family: PoppinsM;
+
+        & h1{ 
+            font-size: $font-footer-company-desk;
+            margin-bottom: 10%;
+        }
+
+        & p{
+            @include font-size-color($font-footer-company-desk-p, $color-grey);
+            line-height: 125%;
+        }
+    }
+
+    &__nav-column{
+        @include flex-column;
+        margin-right: 5vw;
+        font-family: PoppinsM;
+
+        & h1{
+            @include font-size-color($font-footer-nav-column-h1, $color-black);
+            margin-top: 1.2vh;
+            margin-bottom: 4vh;
+            font-family: PoppinsB;
+        }
+
+        & a{
+            @include font-size-color($font-subtext, $color-grey);
+            margin-bottom: 1.4vh;
+            text-decoration: none;
+        }
+    }
+
+    &__discover{
+        @include flex-column;
+    }
+
+    &__socials{
+        @include flex-row;
+
+        & a{
+            width: 41px;
+            height: 41px;
+            border-radius: 50%;
+            background-color: $color-white;
+            box-shadow: 0px 2px 10px 0px #0000001A;
+
+            &:first-child{
+                background-image: url(/images/footer/FacebookIcon.svg);
+                @include background-center-norepeat;
+            }
+
+            &:nth-child(2n){
+                margin-left: 3vh;
+                margin-right: 3vh;
+                background-image: url(/images/footer/instagram.svg) ,conic-gradient(from 180deg at 50% 50%, #80A4CE 0%, #F289AA 17%, #C68BF0 29%, #D164DA 43%, #C963E8 61%, #BFC2E8 72%, #FFC999 80%, #D0D8C9 88%, #BAD0F1 93%, #CED8CB 99%);
+                @include background-center-norepeat;
+            }
+
+            &:last-child{
+                background-image: url(/images/footer/twitter.svg);
+                @include background-center-norepeat;
+            }
+        }
+    }
+
+    &__discover-text{
+        @include font-size-color($font-category, $color-grey);
+        margin-bottom: 2vh;
+        margin-top: 3vh;
+        font-family: PoppinsM;
+    }
+
+    &__stores{
+        @include flex-row;
+        justify-content: center;
+
+        & a{
+            @include flex-row-center;
+            width: 110px;
+            height: 35px;
+            margin-right: 0.7vh;
+            background-color: $color-deep-black; 
+            border-radius: 1.8vh;
+            justify-content: center;
+        }
+    }
+
+    &__google-icon{
+        width: 20px;
+        height: 20px;
+        margin-right: 0.7vh;
+        background: url(/images/footer/google-play-icon.svg);
+    }
+
+    &__google-text{
+        width: 54px;
+        height: 15px;
+        background: url(/images/footer/google-play-text.svg);
+    }
+
+    &__apple-icon{
+        width: 14px;
+        height: 16px;
+        margin-right: 0.7vh;
+        background: url(/images/footer/apple-icon.svg);
+    }
+
+    &__apple-text{
+        width: 54px;
+        height: 18px;
+        background: url(/images/footer/apple-text.svg);
+    }
+}

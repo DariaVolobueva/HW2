@@ -1,0 +1,96 @@
+@import 'fonts';
+
+.testimonials{
+    &__block-position{
+        @include flex-row;
+        flex-wrap: wrap;
+
+        @media (max-width: 682px){
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__text{
+        width: 35.5%;
+        margin-top: 13%;
+        margin-right: 2.5%;
+        margin-left: 12.9vw;
+        align-items: flex-start; 
+
+        & h1{
+            text-align: left;
+            text-transform: capitalize;
+            line-height: 120%;
+        }
+
+        & p{
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 682px) {
+            width: 90%;
+            align-items: center;
+            margin-right: 0;
+            margin-left: 0;
+
+            & h1{
+                text-align: center;
+            }
+        }
+    }
+}
+
+.testimonial-block{
+    @include flex-column;
+    min-width: 335px;
+    width: 35%;
+    border-radius: 1vh;
+    background-color: $color-white;
+    font-family: PoppinsR;
+    color: $color-grey;
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px #00000001
+    ,0px 8.148148536682129px 6.518518447875977px 0px #00000002
+    ,0px 20px 13px 0px #00000003
+    ,0px 38.51852035522461px 25.481481552124023px 0px #00000003
+    ,0px 64.81481170654297px 46.85185241699219px 0px #00000004
+    ,0px 100px 80px 0px #00000005;
+
+    &__position{
+        position: relative;
+        margin-top: 14.5%;
+        padding: 1.9% 4.4% 2.4% 2.4%;
+    }
+
+    &__image{
+        position: absolute;
+        width: 68px;
+        height: 68px;
+        top: -24%;
+        left: -4%;
+        background: url(/images/testimonials/man.jpg);
+        background-size: cover;
+        border-radius: 50%;
+    }
+
+    &__main-text{
+        margin-bottom: 8.4%;
+        font-size: $font-category-p;
+        line-height: 150%;
+    }
+
+    &__name{
+        font-size: $font-subtext;
+        font-family: PoppinsM;
+    }
+
+    &__country{
+        margin-top: 2.4%;
+        font-size: $font-book-trip;
+    }
+
+    @media (max-width: 682px) {
+        padding: 5%;
+        width: 65%;
+    }
+}

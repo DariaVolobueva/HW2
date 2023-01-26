@@ -1,0 +1,48 @@
+@import 'fonts';
+
+.logos{
+    &__position{
+        @include flex-row-center;
+        margin-top: 12%;
+        margin-bottom: 7%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &_image-shadow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1.5%;
+        padding-bottom: 2.1%;
+        background-color: $color-white;
+        filter: grayscale(100%);
+        border-radius: 1vh;
+        transition: all 0.5s;
+        transition-timing-function: linear;
+        
+        @media (max-width: 1341px) {
+            background-color: transparent;
+        }
+
+        @media (min-width: 1341px) {
+            &:hover{
+                margin-left: 20px;
+                margin-right: 20px;
+                filter: none;
+                box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px #00000001
+                ,0px 8.148148536682129px 6.518518447875977px 0px #00000002
+                ,0px 20px 13px 0px #00000003
+                ,0px 38.51852035522461px 25.481481552124023px 0px #00000003
+                ,0px 64.81481170654297px 46.85185241699219px 0px #00000004
+                ,0px 100px 80px 0px #00000005;
+            }
+        }
+        
+        & img{
+            width: 17.2vh;
+            margin-left: 4.5vh;
+            margin-right: 4.5vh;
+        }
+    }
+}

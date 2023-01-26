@@ -1,0 +1,299 @@
+@import 'fonts';
+
+.hero{
+    width: 100%;
+    height: auto;
+    &__gradient{
+        position: absolute;
+        width: 35vw;
+        height: 59%;
+        margin-top: -5%;
+        margin-left: -25%;
+        background: $hero-gradient;
+
+        @media (max-width:1300px) {
+            width: 42vw;
+            height: 61%;
+        }
+
+        @media (max-width: 640px), (max-width: 1300px) and (min-height: 1080px), (aspect-ratio: 3/4) {
+            display: none;
+        }
+
+        @media (max-width: 850px) {
+            width: 53vw;
+            margin-left: -30%;
+        }
+    }
+
+    &__wave{
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        background-repeat: no-repeat;       
+        z-index: -1;
+    }
+
+    &__block{
+        @include flex-row;
+    }
+
+    &__desc{
+        width: 45%;
+        height: auto;
+        margin-top: 15.5vh;
+        margin-left: 10vw;
+        @include flex-column;
+        & h1{
+            @include font-size-color($font-hero-main-text, $color-dark-blue);
+            margin-bottom: 4.6%;
+            font-family: VolkhovB;
+        }
+
+        & p{
+            @include font-size-color($font-standart, $color-grey);
+            width: 75%;
+            font-family: PoppinsM;
+            line-height: 200%;
+        }
+
+        @media (aspect-ratio: 3/4), (max-width: 1000px), (max-width: 1300px) and (min-height: 1080px){
+            width: 90%;
+            margin-top: 7vh;
+            z-index: 3;
+        }
+    }
+
+    &__tagline{
+        @include font-size-color($font-upper-main-text, $color-pink);
+        margin-bottom: 3.5%;
+        font-family: PoppinsB;
+        text-transform: uppercase;
+    }
+
+    &__traveller{
+        position: absolute;
+        width: 85vh;
+        top: 11.5%;
+        right: 11vw;
+        pointer-events: none;
+        z-index: 1;
+        
+        @media (max-width: 1300px){
+            width: 75vh;
+        }
+
+        @media (max-width: 1200px){
+            right: 4vw;
+        }
+
+        @media (max-width: 1000px) and (min-height: 1350px), 
+        (max-width: 1300px) and (min-height: 1080px), 
+        (max-width: 670px), (aspect-ratio: 3/4){
+            display: none;
+        }
+
+        @media (max-width: 840px){
+            right: 0vw;
+        }
+
+        @media (max-width: 720px){
+            top: 41vh;
+            width: 65vh;
+            right: 5vw;
+        }
+    }
+
+    &__plane1{
+        position: absolute;
+        width: 10%;
+        left: 48.5%;
+        top: 18.4%;
+        z-index: 2; 
+        transition: all 3s ease-in-out;
+        &:hover{  
+            animation-name: anim;
+            animation-duration: 3s;
+            animation-fill-mode: both;
+            z-index: 0;
+        }  
+        
+        @media (aspect-ratio: 3/4), (max-width: 1000px) {
+            width: 30%;
+            left: 0%;
+            top: 8.4%;
+        }
+    }
+
+    &__plane2{
+        position: absolute;
+        width: 10%;
+        right: 11vw;
+        top: 24%;
+        z-index: 0;
+
+        @media (max-width: 1200px){
+            right: 4vw;
+        }
+
+        @media (aspect-ratio: 3/4), (max-width: 1000px) {
+            width: 30%;
+            right: 5%;
+            top: 54%;
+        }
+    }
+
+    &__cta{
+        @include flex-row-center;
+        margin-top: 5.5%;
+        
+        & > input{
+            @include font-size-color($font-standart, $color-white);
+            width: 18vh;
+            height: 7vh;
+            background-color: $color-yellow;
+            border-radius: 1.2vh;
+            border: none;
+            box-shadow: 0px 20px 35px 0px $color-beige;
+            font-family: InterR;
+            cursor: pointer;
+        }
+    }
+
+    &__play-demo {
+        @include flex-row-center;
+        margin-left: 7%;
+
+        & input{
+            @include font-size-color($font-hero-button, $color-white);
+            width: 6vh;
+            height: 6vh;
+            background-color: $color-pink;
+            border-radius: 50%;
+            border: none;
+            font-family: InterR;
+            box-shadow: 0px 15px 30px 0px $color-light-pink;
+            cursor: pointer;
+        }
+
+        & label{
+            @include font-size-color($font-medium, $color-grey);
+            margin-left: 1.5vw;
+            font-family: PoppinsM;
+        }
+    }
+}
+
+.nav{
+    font-family: InterM;
+    color: $color-black;
+    &__header{
+        @include flex-row-center;
+        margin-top: 3.3%;
+        margin-left: 9.7%;
+        margin-right: 0.5vw;
+
+        @media (max-width: 1000px), (max-width: 1300px) and (min-height: 1080px) {
+            justify-content: space-between;
+        }
+    }
+
+    &__logo{
+        height: 4vh;
+        cursor: pointer;
+    }
+
+    &__links{
+        @include flex-row;
+        margin-left: 17%;
+        
+        &_active-button:hover{
+            transform: scale(1.7);
+            color: $color-pink;
+        }
+
+        @media (max-width: 1000px), (max-width: 1300px) and (min-height: 1080px) {
+            display: none;
+        }
+    }
+
+    &__link{
+        position: relative;
+        margin-left: 4vw;
+        @include font-size-color($font-medium, $color-black);
+        text-decoration: none;
+        transition: font-size .3s ease-in-out;
+        display: block;
+
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+
+    &__log{
+        @include flex-row-center;
+        margin-left: 6.5%;  
+        font-size: $font-medium;
+
+        @media (max-width: 1000px), (max-width: 1300px) and (min-height: 1080px) {
+            display: none;
+        }
+    }
+
+    &__login{
+        @include font-size-color($font-medium, $color-black);
+        margin-right: 3.5vw;
+        text-decoration: none;
+    }
+
+    &__sign-up{
+        width: 7vw;
+        height: 4.5vh;
+        background-color: transparent;
+        border: 1px solid $color-black;
+        border-radius: 0.3em;
+        font-size: $font-medium;
+        cursor: pointer;
+    }
+
+    &__dropdown{
+        @include flex-row;
+        margin-left: 3vw;
+        text-align: center;
+        
+        & a{
+            text-decoration: none;
+            color: $color-black;
+            margin-right: 0.5vw;
+        }  
+    }
+
+    &__icon-menu{
+        color: $color-black;
+        display: none;
+        height: 10vh;
+
+        @media (max-width: 1000px), (max-width: 1300px) and (min-height: 1080px) {
+            display: initial;
+        }
+    }
+}
+@keyframes anim{
+    0%{
+        left: 48.5%;
+        top: 18.4%;
+    }
+    25%{
+        left: 88.5%;
+        top: -48.4%;
+    }
+    50%{
+        rotate: 190deg;
+        left: -18.5%;
+        top: -48.4%;
+    }
+    100%{
+        left: 48.5%;
+        top: 18.4%;
+    }
+}

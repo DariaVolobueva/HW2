@@ -1,0 +1,114 @@
+@import 'fonts';
+
+.destinations{
+    &__text{
+        margin-top: 14.2vh;     
+    }
+
+    &__cards{
+        @include flex-row-center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        & > div:last-child{
+            & > div:first-child{
+                background: url(/images/destinations/destination3.jpg); 
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+
+        & div:nth-child(2n){
+            & > div:first-child{
+                background: url(/images/destinations/destination2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat; 
+            }
+        }
+    }
+
+    &__card{
+        @include flex-column;
+        height: 100%;
+        width: auto;
+        margin-top: 4.1%;
+        margin-right: 2.5%;
+        border-radius: 3vh;
+        font-family: PoppinsM;
+        color: $color-grey;
+        background-color: $color-white;
+        box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px #00000001,
+        0px 8.148148536682129px 6.518518447875977px 0px #00000002,
+        0px 20px 13px 0px #00000003,
+        0px 38.51852035522461px 25.481481552124023px 0px #00000003,
+        0px 64.81481170654297px 46.85185241699219px 0px #00000004,
+        0px 100px 80px 0px #00000005;
+        transition: box-shadow 2s ease; 
+    }
+
+    &_animate{
+        @media (min-width: 1100px){
+            &:hover{
+                box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px #00000010,
+                0px 8.148148536682129px 6.518518447875977px 0px #00000020,
+                0px 20px 13px 0px #00000030,
+                0px 38.51852035522461px 25.481481552124023px 0px #00000040,
+                0px 64.81481170654297px 46.85185241699219px 0px #00000050,
+                0px 100px 80px 0px #00000060;
+                transform: scale(1.1);
+
+                .destinations__spiral{
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+
+    &__image{
+        width: 314px;
+        height: 37.6vh;
+        max-height: 350px;
+        border-top-left-radius: 8%;
+        border-top-right-radius: 8%;
+        background: url(/images/destinations/destination1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__country-price{
+        @include flex-row;
+        margin-top: 8.5%;
+        margin-left: 6.5%;
+        margin-right: 8%;
+        margin-bottom: 6%;
+        justify-content: space-between;
+    }
+
+    &__duration{
+        @include flex-row;
+        justify-content: left;
+        margin-left: 6.5%;
+        margin-bottom: 13.5%;
+        & div{
+            width: 20px;
+            height: 17px;
+            margin-right: 4.7%;
+            background: url(/images/destinations/navigation1.svg);
+        }
+    }
+
+    &__spiral{
+        position: absolute; 
+        width: 98px;
+        height: 255px;
+        margin-top: 14vh;
+        margin-left: 32.1vh;
+        background: url(/images/destinations/brokenline.svg);
+        z-index: -1;
+
+        @media (max-height: 1100px) and (max-width: 1000px), (max-width: 1017px){
+            display: none;
+        }
+
+    }
+}

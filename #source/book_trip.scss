@@ -1,0 +1,330 @@
+@import 'fonts';
+
+.book-trip{
+    &__text{
+        width: 35.5vw;
+        margin-top: 26.5%;
+        margin-left: 12.9vw;
+        margin-bottom: 4.5%;
+        align-items: flex-start;
+        
+        & h1{
+            text-align: left;
+            text-transform: capitalize;
+            line-height: 120%;
+        }
+
+        @media (max-width: 860px), (max-width: 944px) and (min-height: 1077px) {
+            width: 90%;
+            align-items: center;
+            margin-left: 0;
+
+            & h1{
+                text-align: center;
+            }
+        }
+    }
+
+    &__block{
+        @include flex-column;
+        margin-left: 12.9vw;
+
+        @media (max-width: 860px), (max-width: 944px) and (min-height: 1077px){
+            margin-left: 0;
+            align-items: center;
+        }
+    }
+
+    &__payment{
+        .book-trip__favicon{
+            background: url(/images/book_trip/favicon2.svg);
+            background-color: $color-pink; 
+            @include background-center-norepeat;    
+        }
+    }
+
+    &__date{
+        .book-trip__favicon{
+            background: url(/images/book_trip/favicon3.svg);
+            @include background-center-norepeat;
+            background-color: $color-blue;
+        } 
+    }
+
+    &__destination,
+    &__payment,
+    &__date{
+        @include flex-row-center;
+    }
+
+    &__payment,
+    &__date{
+        margin-top: 9.5%;
+    }
+
+    &__favicon{
+        background: url(/images/book_trip/favicon1.svg);
+        background-color: $color-yellow;
+        @include background-center-norepeat;
+    }
+
+    &__text-block{
+        width: 23vw;
+        margin-left: 4.1%;
+
+        @media (max-width: 860px), (max-width: 944px) and (min-height: 1077px){
+            width: 90%;
+        }
+    }
+
+    &__image-content{
+        @media (max-width: 860px){
+            margin-top: -20%;
+            margin-left: 7%;
+            margin-right: 7%;
+        }
+
+        @media (max-width: 944px) and (min-height: 1077px) {
+            margin-top: -15%;
+            margin-left: 15%;
+        }
+
+        @media (max-width: 620px) {
+            margin-left: 5%;
+        }
+    }
+
+    &__gradient{
+        position: absolute;
+        width: 700px;
+        height: 700px;
+        margin-left: 4vw;
+        margin-top: -6vh;
+        background: $book-trip-gradient;
+        z-index: -1;
+    }
+
+    &__card{
+        @include flex-column;
+        width: auto;
+        margin-left: 7vw;
+        margin-top: 43%;
+        padding: 2.3vh 2.75vh 3.5vh 2.8vh;
+        border-radius: 3vh;
+        background-color: $color-white;
+        font-family: PoppinsM;
+        box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px #00000001
+        ,0px 8.148148536682129px 6.518518447875977px 0px #00000002
+        ,0px 20px 13px 0px #00000003
+        ,0px 38.51852035522461px 25.481481552124023px 0px #00000003
+        ,0px 64.81481170654297px 46.85185241699219px 0px #00000004
+        ,0px 100px 80px 0px #00000005;
+        z-index: 0;
+    }
+
+    &__image{
+        width: 100%;
+        height: 18.5vh;
+        background: url(/images/book_trip/greece.jpg);
+        @include background-center-norepeat;
+        border: $color-black 1px solid;
+        border-radius: 2.7vh;
+    }
+
+    &__trip-to{
+        margin-top: 8%;
+        text-transform: capitalize;
+        color: $color-black;
+    }
+
+    &__date-name{
+        @include flex-row;
+        margin-top: 4%;
+        color: $color-grey;
+
+        & p:nth-child(2n){
+            font-family: PoppinsL;
+        }
+
+        & p:last-child{
+            margin-left: 4%;
+        }
+    }
+
+    &__options{
+        @include flex-row;
+        margin-top: 5.9%;
+    }
+
+    &__option{
+        @include background-center-norepeat;
+        width: 36px;
+        height: 36px;
+        background-color: $color-light-grey;
+        border-radius: 50%;
+        margin-right: 4%;
+
+        &:first-child{
+            background-image: url(/images/book_trip/leaf.svg);
+        }
+
+        &:nth-child(2n){
+            background-image: url(/images/book_trip/send.svg);
+        }
+
+        &:last-child{
+            background-image: url(/images/book_trip/map.svg);
+        }
+    }
+
+    &__going{
+        @include flex-row;
+        margin-top: 9%;
+
+        & div:first-child{
+            width: 16px;
+            height: 16px;
+            background-image: url(/images/book_trip/building1.svg);
+        }
+
+        & p{
+            margin-left: 2vh;
+            color: $color-grey;
+            white-space: nowrap;
+        }
+
+        & div:last-child{
+            width: 20px;
+            height: 19px;
+            margin-left: 16.1vh;
+            background-image: url(/images/book_trip/heart1.svg);
+        }
+    }
+    &__small-card{
+        @include flex-row;
+        position: absolute;
+        width: 30vh;
+        right: 10.5vw;
+        margin-top: -12.4%;
+        padding-top: 2.1vh;
+        padding-left: 2.3vh;
+        padding-bottom: 2.6vh;
+        background-color: $color-white;
+        border-radius: 2vh;
+        box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px #00000001
+        ,0px 8.148148536682129px 6.518518447875977px 0px #00000002
+        ,0px 20px 13px 0px #00000003
+        ,0px 38.51852035522461px 25.481481552124023px 0px #00000003
+        ,0px 64.81481170654297px 46.85185241699219px 0px #00000004
+        ,0px 100px 80px 0px #00000005;
+        z-index: 1;
+
+        @media (max-width: 1200px) {
+            right: 2vw;
+            margin-top: -17%;
+        }
+
+        @media (max-width: 1100px) {
+            right: 1vw;
+            margin-top: -18%;
+        }
+
+        @media (max-width: 1000px) {
+            right: 0vw;
+            margin-top: -18%;
+        }
+
+        @media (max-width: 860px) {
+            right: 14vw;
+            margin-top: -27%;
+        }
+
+        @media (max-width: 944px) and (min-height: 1077px) {
+            right: 9vw;
+            margin-top: -22%;
+        }
+
+    }
+
+    &__small-image{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: url(/images/book_trip/small_image.jpg);
+        background-size: cover; 
+    }
+
+    &__ongoing{
+        font-family: PoppinsM;
+        margin-left: 1.3vh;
+        margin-bottom: 1vh;
+
+        & > p{
+            @include font-size-color($font-book-trip, $color-black);
+            margin-top: 1.6vh;
+
+            & span{
+                color: $color-light-violet;
+            }
+        } 
+
+        & p:first-child{
+            @include font-size-color($font-book-trip, $color-grey);
+            margin-top: 0;
+            margin-bottom: 0.7vh;
+        }
+
+        & > span{
+            @include font-size-color($font-subtext, $color-black);
+            margin-bottom: 1.4vh;
+        }
+    }
+
+    &__first-rectangle{
+        position: relative;
+        width: 18vh;
+        height: 7.6%;
+        margin-top: 1.15vh;
+        background-color: $color-light-grey;
+        border-radius: 5vh;
+    }
+
+    &__second-rectangle{
+        position: absolute;
+        width: 8.5vh;
+        height: 4.6%;
+        margin-top: -5px;
+        border-radius: 5vh;
+        background-color: $color-light-violet;
+    }
+}
+
+.book-trip__content{
+    @include flex-row-center;
+    flex-wrap: wrap;
+
+    @media (max-width: 780px) {
+        margin-bottom: 10%;
+    }
+}
+
+.text-block{
+    @include flex-column;
+    @include font-size-color($font-category-p, $color-grey);
+    justify-content: flex-start;
+    font-family: PoppinsM;  
+    line-height: 125%;
+
+    &__primary{
+        font-family: PoppinsB;
+        text-transform: capitalize;
+        margin-bottom: 0.4vh;
+    }
+}
+
+.favicon{
+    width: 47px;
+    height: 48px;
+    border-radius: 1.5vh;
+}
+

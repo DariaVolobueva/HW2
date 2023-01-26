@@ -1,0 +1,141 @@
+@import 'fonts';
+
+.subscribe{
+    &__position{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 9.2%;
+    }
+}
+
+.subscribe-main{
+    @include flex-column-center;
+    position: relative;
+    width: 81.3%;
+    height: 47vh;
+    border-radius: 2vh;
+    border-top-left-radius: 15vh;
+    background-color: $color-light-grey;
+    z-index: 0;
+
+    @media (min-height: 1200px) and (max-width: 2000px) {
+        height: 40vh;
+    }
+
+    @media (max-width: 1500px) and (min-height: 1100px), (max-width: 1000px) {
+        height: 30vh;
+    }
+
+    &__ellipse{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        right: -1.5%;
+        top: -5%;
+        background: url(/images/subscribe/send2.svg), linear-gradient(180deg, rgba(116,125,239,1) 0%, rgba(94,59,225,1) 100%);
+        @include background-center-norepeat;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    &__circle1{
+        position: absolute;
+        width: 390px;
+        height: 277px;
+        left: 1.5%;
+        bottom: 0;
+        background: url(/images/subscribe/circles.svg);
+        background-repeat: no-repeat;
+        opacity: 20%;
+    }
+
+    &__circle2{
+        position: absolute;
+        width: 204px;
+        height: 280px;
+        right: 0;
+        top: 0;
+        background: url(/images/subscribe/circles2.svg);
+        background-repeat: no-repeat;
+        opacity: 20%;
+    }
+
+    &__main-text{
+        @include font-size-color($font-upper-main-text, $color-grey);
+        width: 85%;
+        margin-top: 7.3%;
+        font-family: PoppinsSB;
+        text-align: center;
+
+        @media (max-width: 1000px) {
+            margin-top: 15%;
+        }
+    }
+
+    &__form{
+        @include flex-row;
+        margin-top: 6.3%;
+        position: relative;
+        
+        & input{ 
+            @include font-size-color($font-book-trip, $color-grey-mid);
+            width: 29vw;   
+            height: 100%;
+            margin-right: 4vh;
+            padding-left: 9%;
+            background-color: $color-white;
+            border-radius: 1vh;
+            border: none;
+            font-family: PoppinsR;
+            text-align: justify;
+            z-index: 1;
+
+            @media (max-width:1000px) {
+                height: 90%;
+                padding-left: 15%;
+            }
+        }
+
+        &::after{
+            position: absolute;
+            display: block;
+            width: 21px;
+            height: 18px;
+            top: 37%;
+            left: 4%;
+            content: '';
+            background: url(/images/subscribe/letter.svg) no-repeat;
+            z-index: 2;
+
+            @media (max-width:1000px) {
+                top: 32%;
+            }
+        }
+
+        & button{
+            @include font-size-color($font-standart, $color-white);
+            width: 12.5vw;
+            height: 8vh;
+            border-radius: 1vh;
+            border: none;
+            background: linear-gradient(180deg, rgba(255,148,109,1) 0%, rgba(255,125,104,1) 100%);
+            font-family: InterR;
+            cursor: pointer;
+
+            @media (max-width:1000px){
+                height: 5vh;
+                width: 100%;
+            }
+        }
+    }
+    
+    &__pluses{
+        position: absolute;
+        width: 153px;
+        height: 166px;
+        bottom: -15%;
+        right: -7.1vw;
+        background: url(/images/subscribe/pluses2.svg) no-repeat;
+        z-index: -1;
+    }
+}
