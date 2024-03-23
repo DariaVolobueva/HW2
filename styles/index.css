@@ -55,39 +55,39 @@ table {
 
 @font-face {
   font-family: InterR;
-  src: url("/fonts/Inter/static/Inter-Regular.ttf");
+  src: url("../fonts/Inter/static/Inter-Regular.ttf");
 }
 @font-face {
   font-family: InterB;
-  src: url("/fonts/Inter/static/Inter-Bold.ttf");
+  src: url("../fonts/Inter/static/Inter-Bold.ttf");
 }
 @font-face {
   font-family: InterM;
-  src: url("/fonts/Inter/static/Inter-Medium.ttf");
+  src: url("../fonts/Inter/static/Inter-Medium.ttf");
 }
 @font-face {
   font-family: VolkhovB;
-  src: url("/fonts/Volkhov/Volkhov-Bold.ttf");
+  src: url("../fonts/Volkhov/Volkhov-Bold.ttf");
 }
 @font-face {
   font-family: PoppinsB;
-  src: url("/fonts/Poppins/Poppins-Bold.ttf");
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
 }
 @font-face {
   font-family: PoppinsM;
-  src: url("/fonts/Poppins/Poppins-Medium.ttf");
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
 }
 @font-face {
   font-family: PoppinsL;
-  src: url("/fonts/Poppins/Poppins-Light.ttf");
+  src: url("../fonts/Poppins/Poppins-Light.ttf");
 }
 @font-face {
   font-family: PoppinsR;
-  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: PoppinsSB;
-  src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
 }
 .hero {
   width: 100%;
@@ -477,39 +477,39 @@ table {
 }
 @font-face {
   font-family: InterR;
-  src: url("/fonts/Inter/static/Inter-Regular.ttf");
+  src: url("../fonts/Inter/static/Inter-Regular.ttf");
 }
 @font-face {
   font-family: InterB;
-  src: url("/fonts/Inter/static/Inter-Bold.ttf");
+  src: url("../fonts/Inter/static/Inter-Bold.ttf");
 }
 @font-face {
   font-family: InterM;
-  src: url("/fonts/Inter/static/Inter-Medium.ttf");
+  src: url("../fonts/Inter/static/Inter-Medium.ttf");
 }
 @font-face {
   font-family: VolkhovB;
-  src: url("/fonts/Volkhov/Volkhov-Bold.ttf");
+  src: url("../fonts/Volkhov/Volkhov-Bold.ttf");
 }
 @font-face {
   font-family: PoppinsB;
-  src: url("/fonts/Poppins/Poppins-Bold.ttf");
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
 }
 @font-face {
   font-family: PoppinsM;
-  src: url("/fonts/Poppins/Poppins-Medium.ttf");
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
 }
 @font-face {
   font-family: PoppinsL;
-  src: url("/fonts/Poppins/Poppins-Light.ttf");
+  src: url("../fonts/Poppins/Poppins-Light.ttf");
 }
 @font-face {
   font-family: PoppinsR;
-  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: PoppinsSB;
-  src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
 }
 .services__block {
   display: -webkit-box;
@@ -530,7 +530,7 @@ table {
   height: 166px;
   margin-top: -0.5%;
   right: 4%;
-  background: url(/images/services/pluses.svg);
+  background: url(../images/services/pluses.svg);
   z-index: -1;
 }
 .services__categories {
@@ -639,7 +639,7 @@ table {
   position: sticky;
   width: 67px;
   height: 70px;
-  background: url(/images/services/satellite-dish.svg);
+  background: url(../images/services/satellite-dish.svg);
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -648,7 +648,7 @@ table {
   height: 140px;
   margin-top: -40px;
   margin-left: -29px;
-  background: url(/images/services/Services_plane.svg);
+  background: url(../images/services/Services_plane.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -656,13 +656,13 @@ table {
   margin-top: 0;
 }
 .services__image-events div:last-child {
-  background: url(/images/services/speaker.svg);
+  background: url(../images/services/speaker.svg);
   background-repeat: no-repeat;
 }
 .services__image-customization div:last-child {
   margin-top: 10px;
   margin-left: 5px;
-  background: url(/images/services/power-supply.svg);
+  background: url(../images/services/power-supply.svg);
   background-repeat: no-repeat;
 }
 
@@ -693,39 +693,39 @@ table {
 
 @font-face {
   font-family: InterR;
-  src: url("/fonts/Inter/static/Inter-Regular.ttf");
+  src: url("../fonts/Inter/static/Inter-Regular.ttf");
 }
 @font-face {
   font-family: InterB;
-  src: url("/fonts/Inter/static/Inter-Bold.ttf");
+  src: url("../fonts/Inter/static/Inter-Bold.ttf");
 }
 @font-face {
   font-family: InterM;
-  src: url("/fonts/Inter/static/Inter-Medium.ttf");
+  src: url("../fonts/Inter/static/Inter-Medium.ttf");
 }
 @font-face {
   font-family: VolkhovB;
-  src: url("/fonts/Volkhov/Volkhov-Bold.ttf");
+  src: url("../fonts/Volkhov/Volkhov-Bold.ttf");
 }
 @font-face {
   font-family: PoppinsB;
-  src: url("/fonts/Poppins/Poppins-Bold.ttf");
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
 }
 @font-face {
   font-family: PoppinsM;
-  src: url("/fonts/Poppins/Poppins-Medium.ttf");
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
 }
 @font-face {
   font-family: PoppinsL;
-  src: url("/fonts/Poppins/Poppins-Light.ttf");
+  src: url("../fonts/Poppins/Poppins-Light.ttf");
 }
 @font-face {
   font-family: PoppinsR;
-  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: PoppinsSB;
-  src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
 }
 .destinations__text {
   margin-top: 14.2vh;
@@ -748,12 +748,12 @@ table {
       flex-wrap: wrap;
 }
 .destinations__cards > div:last-child > div:first-child {
-  background: url(/images/destinations/destination3.jpg);
+  background: url(../images/destinations/destination3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .destinations__cards div:nth-child(2n) > div:first-child {
-  background: url(/images/destinations/destination2.jpg);
+  background: url(../images/destinations/destination2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -797,7 +797,7 @@ table {
   max-height: 350px;
   border-top-left-radius: 8%;
   border-top-right-radius: 8%;
-  background: url(/images/destinations/destination1.jpg);
+  background: url(../images/destinations/destination1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -835,7 +835,7 @@ table {
   width: 20px;
   height: 17px;
   margin-right: 4.7%;
-  background: url(/images/destinations/navigation1.svg);
+  background: url(../images/destinations/navigation1.svg);
 }
 .destinations__spiral {
   position: absolute;
@@ -843,7 +843,7 @@ table {
   height: 255px;
   margin-top: 14vh;
   margin-left: 32.1vh;
-  background: url(/images/destinations/brokenline.svg);
+  background: url(../images/destinations/brokenline.svg);
   z-index: -1;
 }
 @media (max-height: 1100px) and (max-width: 1000px), (max-width: 1017px) {
@@ -852,42 +852,6 @@ table {
   }
 }
 
-@font-face {
-  font-family: InterR;
-  src: url("/fonts/Inter/static/Inter-Regular.ttf");
-}
-@font-face {
-  font-family: InterB;
-  src: url("/fonts/Inter/static/Inter-Bold.ttf");
-}
-@font-face {
-  font-family: InterM;
-  src: url("/fonts/Inter/static/Inter-Medium.ttf");
-}
-@font-face {
-  font-family: VolkhovB;
-  src: url("/fonts/Volkhov/Volkhov-Bold.ttf");
-}
-@font-face {
-  font-family: PoppinsB;
-  src: url("/fonts/Poppins/Poppins-Bold.ttf");
-}
-@font-face {
-  font-family: PoppinsM;
-  src: url("/fonts/Poppins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: PoppinsL;
-  src: url("/fonts/Poppins/Poppins-Light.ttf");
-}
-@font-face {
-  font-family: PoppinsR;
-  src: url("/fonts/Poppins/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: PoppinsSB;
-  src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
-}
 .book-trip__text {
   width: 35.5vw;
   margin-top: 26.5%;
@@ -933,13 +897,13 @@ table {
   }
 }
 .book-trip__payment .book-trip__favicon {
-  background: url(/images/book_trip/favicon2.svg);
+  background: url(../images/book_trip/favicon2.svg);
   background-color: #DF6951;
   background-repeat: no-repeat;
   background-position: center;
 }
 .book-trip__date .book-trip__favicon {
-  background: url(/images/book_trip/favicon3.svg);
+  background: url(../images/book_trip/favicon3.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #006380;
@@ -960,7 +924,7 @@ table {
   margin-top: 9.5%;
 }
 .book-trip__favicon {
-  background: url(/images/book_trip/favicon1.svg);
+  background: url(../images/book_trip/favicon1.svg);
   background-color: #F1A501;
   background-repeat: no-repeat;
   background-position: center;
@@ -1023,7 +987,7 @@ table {
 .book-trip__image {
   width: 100%;
   height: 18.5vh;
-  background: url(/images/book_trip/greece.jpg);
+  background: url(../images/book_trip/greece.jpg);
   background-repeat: no-repeat;
   background-position: center;
   border: #212832 1px solid;
@@ -1071,13 +1035,13 @@ table {
   margin-right: 4%;
 }
 .book-trip__option:first-child {
-  background-image: url(/images/book_trip/leaf.svg);
+  background-image: url(../images/book_trip/leaf.svg);
 }
 .book-trip__option:nth-child(2n) {
-  background-image: url(/images/book_trip/send.svg);
+  background-image: url(../images/book_trip/send.svg);
 }
 .book-trip__option:last-child {
-  background-image: url(/images/book_trip/map.svg);
+  background-image: url(../images/book_trip/map.svg);
 }
 .book-trip__going {
   display: -webkit-box;
@@ -1092,7 +1056,7 @@ table {
 .book-trip__going div:first-child {
   width: 16px;
   height: 16px;
-  background-image: url(/images/book_trip/building1.svg);
+  background-image: url(../images/book_trip/building1.svg);
 }
 .book-trip__going p {
   margin-left: 2vh;
@@ -1103,7 +1067,7 @@ table {
   width: 20px;
   height: 19px;
   margin-left: 16.1vh;
-  background-image: url(/images/book_trip/heart1.svg);
+  background-image: url(../images/book_trip/heart1.svg);
 }
 .book-trip__small-card {
   display: -webkit-box;
@@ -1160,7 +1124,7 @@ table {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: url(/images/book_trip/small_image.jpg);
+  background: url(../images/book_trip/small_image.jpg);
   background-size: cover;
 }
 .book-trip__ongoing {
@@ -1252,42 +1216,6 @@ table {
   border-radius: 1.5vh;
 }
 
-@font-face {
-  font-family: InterR;
-  src: url("/fonts/Inter/static/Inter-Regular.ttf");
-}
-@font-face {
-  font-family: InterB;
-  src: url("/fonts/Inter/static/Inter-Bold.ttf");
-}
-@font-face {
-  font-family: InterM;
-  src: url("/fonts/Inter/static/Inter-Medium.ttf");
-}
-@font-face {
-  font-family: VolkhovB;
-  src: url("/fonts/Volkhov/Volkhov-Bold.ttf");
-}
-@font-face {
-  font-family: PoppinsB;
-  src: url("/fonts/Poppins/Poppins-Bold.ttf");
-}
-@font-face {
-  font-family: PoppinsM;
-  src: url("/fonts/Poppins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: PoppinsL;
-  src: url("/fonts/Poppins/Poppins-Light.ttf");
-}
-@font-face {
-  font-family: PoppinsR;
-  src: url("/fonts/Poppins/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: PoppinsSB;
-  src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
-}
 .logos__position {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1349,42 +1277,6 @@ table {
   margin-right: 4.5vh;
 }
 
-@font-face {
-  font-family: InterR;
-  src: url("/fonts/Inter/static/Inter-Regular.ttf");
-}
-@font-face {
-  font-family: InterB;
-  src: url("/fonts/Inter/static/Inter-Bold.ttf");
-}
-@font-face {
-  font-family: InterM;
-  src: url("/fonts/Inter/static/Inter-Medium.ttf");
-}
-@font-face {
-  font-family: VolkhovB;
-  src: url("/fonts/Volkhov/Volkhov-Bold.ttf");
-}
-@font-face {
-  font-family: PoppinsB;
-  src: url("/fonts/Poppins/Poppins-Bold.ttf");
-}
-@font-face {
-  font-family: PoppinsM;
-  src: url("/fonts/Poppins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: PoppinsL;
-  src: url("/fonts/Poppins/Poppins-Light.ttf");
-}
-@font-face {
-  font-family: PoppinsR;
-  src: url("/fonts/Poppins/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: PoppinsSB;
-  src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
-}
 .subscribe__position {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1430,8 +1322,8 @@ table {
   height: 70px;
   right: -1.5%;
   top: -5%;
-  background: url(/images/subscribe/send2.svg), -webkit-gradient(linear, left top, left bottom, from(rgb(116, 125, 239)), to(rgb(94, 59, 225)));
-  background: url(/images/subscribe/send2.svg), linear-gradient(180deg, rgb(116, 125, 239) 0%, rgb(94, 59, 225) 100%);
+  background: url(../images/subscribe/send2.svg), -webkit-gradient(linear, left top, left bottom, from(rgb(116, 125, 239)), to(rgb(94, 59, 225)));
+  background: url(../images/subscribe/send2.svg), linear-gradient(180deg, rgb(116, 125, 239) 0%, rgb(94, 59, 225) 100%);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
@@ -1443,7 +1335,7 @@ table {
   height: 277px;
   left: 1.5%;
   bottom: 0;
-  background: url(/images/subscribe/circles.svg);
+  background: url(../images/subscribe/circles.svg);
   background-repeat: no-repeat;
   opacity: 20%;
 }
@@ -1453,7 +1345,7 @@ table {
   height: 280px;
   right: 0;
   top: 0;
-  background: url(/images/subscribe/circles2.svg);
+  background: url(../images/subscribe/circles2.svg);
   background-repeat: no-repeat;
   opacity: 20%;
 }
@@ -1509,7 +1401,7 @@ table {
   top: 37%;
   left: 4%;
   content: "";
-  background: url(/images/subscribe/letter.svg) no-repeat;
+  background: url(../images/subscribe/letter.svg) no-repeat;
   z-index: 2;
 }
 @media (max-width: 1000px) {
@@ -1541,46 +1433,10 @@ table {
   height: 166px;
   bottom: -15%;
   right: -7.1vw;
-  background: url(/images/subscribe/pluses2.svg) no-repeat;
+  background: url(../images/subscribe/pluses2.svg) no-repeat;
   z-index: -1;
 }
 
-@font-face {
-  font-family: InterR;
-  src: url("/fonts/Inter/static/Inter-Regular.ttf");
-}
-@font-face {
-  font-family: InterB;
-  src: url("/fonts/Inter/static/Inter-Bold.ttf");
-}
-@font-face {
-  font-family: InterM;
-  src: url("/fonts/Inter/static/Inter-Medium.ttf");
-}
-@font-face {
-  font-family: VolkhovB;
-  src: url("/fonts/Volkhov/Volkhov-Bold.ttf");
-}
-@font-face {
-  font-family: PoppinsB;
-  src: url("/fonts/Poppins/Poppins-Bold.ttf");
-}
-@font-face {
-  font-family: PoppinsM;
-  src: url("/fonts/Poppins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: PoppinsL;
-  src: url("/fonts/Poppins/Poppins-Light.ttf");
-}
-@font-face {
-  font-family: PoppinsR;
-  src: url("/fonts/Poppins/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: PoppinsSB;
-  src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
-}
 .testimonials__block-position {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1662,7 +1518,7 @@ table {
   height: 68px;
   top: -24%;
   left: -4%;
-  background: url(/images/testimonials/man.jpg);
+  background: url(../images/testimonials/man.jpg);
   background-size: cover;
   border-radius: 50%;
 }
@@ -1686,42 +1542,6 @@ table {
   }
 }
 
-@font-face {
-  font-family: InterR;
-  src: url("/fonts/Inter/static/Inter-Regular.ttf");
-}
-@font-face {
-  font-family: InterB;
-  src: url("/fonts/Inter/static/Inter-Bold.ttf");
-}
-@font-face {
-  font-family: InterM;
-  src: url("/fonts/Inter/static/Inter-Medium.ttf");
-}
-@font-face {
-  font-family: VolkhovB;
-  src: url("/fonts/Volkhov/Volkhov-Bold.ttf");
-}
-@font-face {
-  font-family: PoppinsB;
-  src: url("/fonts/Poppins/Poppins-Bold.ttf");
-}
-@font-face {
-  font-family: PoppinsM;
-  src: url("/fonts/Poppins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: PoppinsL;
-  src: url("/fonts/Poppins/Poppins-Light.ttf");
-}
-@font-face {
-  font-family: PoppinsR;
-  src: url("/fonts/Poppins/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: PoppinsSB;
-  src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
-}
 .footer__position {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1829,19 +1649,19 @@ table {
           box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1019607843);
 }
 .footer__socials a:first-child {
-  background-image: url(/images/footer/FacebookIcon.svg);
+  background-image: url(../images/footer/FacebookIcon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .footer__socials a:nth-child(2n) {
   margin-left: 3vh;
   margin-right: 3vh;
-  background-image: url(/images/footer/instagram.svg), conic-gradient(from 180deg at 50% 50%, #80A4CE 0%, #F289AA 17%, #C68BF0 29%, #D164DA 43%, #C963E8 61%, #BFC2E8 72%, #FFC999 80%, #D0D8C9 88%, #BAD0F1 93%, #CED8CB 99%);
+  background-image: url(../images/footer/instagram.svg), conic-gradient(from 180deg at 50% 50%, #80A4CE 0%, #F289AA 17%, #C68BF0 29%, #D164DA 43%, #C963E8 61%, #BFC2E8 72%, #FFC999 80%, #D0D8C9 88%, #BAD0F1 93%, #CED8CB 99%);
   background-repeat: no-repeat;
   background-position: center;
 }
 .footer__socials a:last-child {
-  background-image: url(/images/footer/twitter.svg);
+  background-image: url(../images/footer/twitter.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1888,21 +1708,21 @@ table {
   width: 20px;
   height: 20px;
   margin-right: 0.7vh;
-  background: url(/images/footer/google-play-icon.svg);
+  background: url(../images/footer/google-play-icon.svg);
 }
 .footer__google-text {
   width: 54px;
   height: 15px;
-  background: url(/images/footer/google-play-text.svg);
+  background: url(../images/footer/google-play-text.svg);
 }
 .footer__apple-icon {
   width: 14px;
   height: 16px;
   margin-right: 0.7vh;
-  background: url(/images/footer/apple-icon.svg);
+  background: url(../images/footer/apple-icon.svg);
 }
 .footer__apple-text {
   width: 54px;
   height: 18px;
-  background: url(/images/footer/apple-text.svg);
+  background: url(../images/footer/apple-text.svg);
 }/*# sourceMappingURL=index.css.map */
